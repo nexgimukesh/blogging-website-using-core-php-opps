@@ -6,7 +6,7 @@ if(isset($_SESSION['authUser'])){
 ?>
     <div class="dash">
         <h2>Welcome <?php echo $_SESSION['authUser']['first_name']; ?></h2>
-        <h1>User Dashboard</h1>
+        <h1>User Dashboard Hello</h1>
     </div>
 <?php
     include_once '../../modules/common/footer.php';
